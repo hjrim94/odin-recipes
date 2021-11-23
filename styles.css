@@ -1,0 +1,27 @@
+h1,
+h3 {
+    color: rgb(68, 68, 68);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul,
+ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-align: center;
+    background-color: lightseagreen;
+}
+
+img{
+    height: auto;
+    width: 200px;
+}
