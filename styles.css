@@ -1,0 +1,16 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(3, 0, 208, 0.249)
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(255, 0, 0, 0.436);
+}
+
+.recipes{
+    text-align: center;
+    font-size: large;
+}
