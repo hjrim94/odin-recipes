@@ -3,6 +3,9 @@ body{
     background-color: rgba(235, 255, 83, 0.394)
 }
 
+h1{
+    background-color: white;
+}
 .title{
     text-align: center;
     font-size: 60px;
@@ -18,8 +21,15 @@ body{
 .food-picture{
     height: auto;
     width: 350px;
+    margin: auto;
+    display:block;
 }
+/* I was trying to center the image but it wasn't working with margin: auto;. I suspected that it was because of
+the fact that it was an img. I was correct and the reason is because img elements are
+inline, not block. So when I set the margin: auto; the auto margin of inline elements
+are zero. Once I set display:block; then it centered the img. */
 
 .center{
     text-align: center;
+   
 }
